@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /api/v1/
+
+# Rediriger toutes les demandes dans /api/v1/ vers index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L,QSA]

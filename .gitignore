@@ -1,0 +1,7 @@
+.env
+.DS_Store
+www/phpMyAdmin/
+logs/*
+/vendor/*
+/pdfs/*
+/signatures/*
